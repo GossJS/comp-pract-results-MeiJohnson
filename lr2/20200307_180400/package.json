@@ -1,0 +1,16 @@
+{
+  "name": "20200307_180400",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
