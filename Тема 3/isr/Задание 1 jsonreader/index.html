@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+    <script>
+      d3.json("data.json", function(error, data) {
+        if (error) throw error;
+        console.log(data);
+      });
+    </script>
+  </body>
+</html>
